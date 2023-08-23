@@ -30,3 +30,41 @@ body{
     }
 }
 
+form{
+    position: absolute;
+    top:20%;
+    right: 5%;
+    width:350px;
+    height: 500px;
+    padding: 0 50px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.display-block{
+    display: block;
+}
+label{
+    font-size: 16px;
+    margin: 20px 0 4px 0;
+}
+h1{
+    font-size: 26px;
+    width: 350px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"],input[type="email"],select{
+    width: 300px;
+    height: 30px;
+    border: 1px, solid, black;
+}
+input[type="submit"]{
+    background-color: #e37737;
+    color: white;
+    padding: 15px 20px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: none;
+}
